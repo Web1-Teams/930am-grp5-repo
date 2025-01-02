@@ -4,14 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HsJ for Education</title>
-  <link rel="stylesheet" href="home page.css ">
+  <link rel="stylesheet" href="home page.css">
 </head>
 <body>
   <header>
     <nav>
-      <div class="logo-container">
-        <img class="logo" src="logo.jpg" alt="Logo">
-      </div>
+     
+        
+         
+      <a href="home page.html">
+        <div class="logo-container">
+          <img class="logo" src="logo.jpg" alt="Logo">
+          </div> </a>
+      
       <ul class="menu">
         <li><a href="#">HTML</a></li>
         <li><a href="#">CSS</a></li>
@@ -24,27 +29,65 @@
   <main>
     <section class="hero">
       <h1>Learn to Code</h1>
-      <p>Master HTML, CSS, and JavaScript with HsJ </p>
+      <p>Master HTML, CSS, and JavaScript with HsJ</p>
       <div class="buttons">
-        <button class="btn-primary" onclick="location.href='github.html';">Start with GitHub</button>
-        <button class="btn-secondary">View Courses</button>
+        <button  class="btn-primary" onclick="location.href='github.html';">Start with GitHub</button>
+        <button class="btn-secondary" onclick="location.href='#html-section';">View About</button>
+     </section>
       </div>
     </section>
 
     <section class="cards">
-      <div class="card">
+      <div class="card" onclick="navigateTo('html.html')">
         <h2>HTML</h2>
         <p>Learn the fundamentals of web structure and semantics</p>
       </div>
-      <div class="card">
+      <div class="card" onclick="navigateTo('css.html')">
         <h2>CSS</h2>
         <p>Master styling and responsive design techniques</p>
       </div>
-      <div class="card">
+      <div class="card" onclick="navigateTo('javascript.html')">
         <h2>JavaScript</h2>
         <p>Build interactive and dynamic web applications</p>
+      
       </div>
     </section>
   </main>
+   <script src="home page.js"></script>
+</body>
+</html>
+  <main>
+    <section id="html-section" class="hero2"> <div class="section section1">HTML</h1>
+      
+      <p>Learn the fundamentals of web structure and semantics</p>
+      <div class="buttons">
+        <button class="btn-primary" onclick="location.href='html.html';">Learn HTML</button>
+        <button class="btn-primary" onclick="location.href='html.html';">Video Tutorial</button>
+        
+       </div>  
+      </div>
+    </section>
+
+    <section id="css-section" class="hero2"><div class="section section2">CSS</h1>
+      
+      <p>Ma30px;styling and responsive design techniques</p>
+      <div class="buttons">
+        <button class="btn-primary" onclick="location.href='css.html';">Learn CSS</button>
+        <button class="btn-primary" onclick="location.href='html.html';">Video Tutorial</button>
+</div>
+      </div>
+    </section>
+
+    <section id="js-section" class="hero2"><div class="section section3">JavaScript</h1> 
+      <p>Build interactive and dynamic web applications</p>
+      <div class="buttons">
+        <button class="btn-primary" onclick="location.href='javascript.html';">Learn JavaScript</button>
+        <button class="btn-primary" onclick="location.href='html.html';">Video Tutorial</button>
+</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="home page.js"></script>
 </body>
 </html>
