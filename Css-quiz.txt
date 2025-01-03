@@ -1,0 +1,160 @@
+1. What does CSS stand for?
+A) Color Style Sheets
+B) Creative Style Sheets
+C) Cascading Style Sheets
+D) Computer Style Sheets
+Answer: C) Cascading Style Sheets
+==========================================================
+2. Which property is used to change the background color?
+A) color
+B) background-color
+C) bgcolor
+D) background
+Answer: B) background-color
+==========================================================
+3. How do you select an element with the id of "header"?
+A) .header
+B) #header
+C) header
+D) *header
+Answer: B) #header
+==========================================================
+4. What is the default position of an HTML element?
+A) fixed
+B) absolute
+C) static
+D) relative
+Answer: C) static
+==========================================================
+5. Which CSS property is used to set the text color?
+A) text-color
+B) color
+C) font-color
+D) foreground-color
+Answer: B) color
+==========================================================
+6. What does the z-index property control?
+A) Font size
+B) Layer order
+C) Opacity
+D) Margin size
+Answer: B) Layer order
+==========================================================
+7. How can you make text bold in CSS?
+A) font-weight: light;
+B) font-style: bold;
+C) font-weight: bold;
+D) text-style: bold;
+Answer: C) font-weight: bold;
+==========================================================
+8. What unit is relative to the font size of the root element?
+A) px
+B) %
+C) em
+D) rem
+Answer: D) rem
+==========================================================
+9. How do you write a CSS rule for a class called box?
+A) .box { ... }
+B) #box { ... }
+C) box { ... }
+D) class.box { ... }
+Answer: A) .box { ... }
+==========================================================
+10. Which property controls the space between an element's border and its content?
+A) margin
+B) padding
+C) spacing
+D) border-spacing
+Answer: B) padding
+==========================================================
+11. Which of the following pseudo-classes selects an element that is the first child of its parent?
+A) :first-of-type
+B) :nth-child(1)
+C) :first-child
+D) :only-child
+Answer: C) :first-child
+==========================================================
+12. What is the purpose of the @media rule in CSS?
+A) To link external CSS files
+B) To define animations
+C) To apply styles based on device screen size
+D) To optimize images
+Answer: C) To apply styles based on device screen size
+==========================================================
+13. What is the difference between position: relative and position: absolute?
+A) relative positions the element based on its parent; absolute uses the viewport.
+B) relative keeps the element in the document flow; absolute removes it.
+C) Both position the element outside the document flow.
+D) No difference.
+Answer: B) relative keeps the element in the document flow; absolute removes it.
+==========================================================
+14. Which value of the display property hides an element but keeps it in the layout?
+A) none
+B) hidden
+C) block
+D) visibility: hidden
+Answer: D) visibility: hidden
+==========================================================
+15. How can you apply a style only to screen sizes smaller than 600px?
+A) @media (max-width: 600px) { ... }
+B) @media screen and (max-width: 600px) { ... }
+C) Both A and B
+D) @media screen-size(600px) { ... }
+Answer: C) Both A and B
+=============================================================
+16. Which property is used to add shadows to text?
+A) text-shadow
+B) font-shadow
+C) shadow-text
+D) text-outline
+Answer: A) text-shadow
+================================================================
+17. What is the default value of the flex-direction property in Flexbox?
+A) row
+B) column
+C) row-reverse
+D) column-reverse
+Answer: A) row
+==================================================================
+18. How do you make a grid layout with 3 columns using CSS Grid?
+A) grid-template-columns: 3;
+B) grid-template-columns: auto auto auto;
+C) grid-template-rows: auto;
+D) grid-template-columns: repeat(3, 1fr);
+Answer: D) grid-template-columns: repeat(3, 1fr);
+=======================================================================
+19. Which shorthand property combines margin-top, margin-right, margin-bottom, and margin-left?
+A) margin-combo
+B) margin
+C) padding
+D) box-model
+Answer: B) margin
+========================================================
+20. How can you animate an element's opacity using CSS?
+A) Using @keyframes and opacity
+B) Using visibility: animate
+C) Using opacity-timing
+D) Using display: fade
+Answer: A) Using @keyframes and opacity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
